@@ -1,0 +1,70 @@
+<HTML>
+<HEAD>
+    <meta charset="utf-8" />
+<TITLE>Welcome Try! JUNY HomePage.</TITLE>
+<base target="contents">
+<bgsound src="imge/britain1.mid" loop="infinite">
+</HEAD>
+
+<BODY BGCOLOR="#FDE7E7" onLoad="loadclock();">
+<table cellpadding=0 cellspacing=0 border=0>
+<tr><td>
+<table cellpadding=0 cellspacing=0 border=0 width="180">
+<tr><td rowspan=3 width="34"><img src="imge/time0.gif" border=0 width="34" height="113" alt="시계"></td>
+<td width="78"><img src="imge/time1.gif" border=0 width="78" height="36" alt="시계"></td>
+<td rowspan=3 width="68"><img src="imge/time3.gif" border=0 width="39" height="113" alt="시계"></td></tr>
+<tr><td height=36 bgcolor="#CBE4FD" align=center width="78"><span id=tick2> 
+</span> 
+
+<script> 
+<!-- 
+function show2(){ 
+var Digital=new Date() 
+var hours=Digital.getHours() 
+var minutes=Digital.getMinutes() 
+var seconds=Digital.getSeconds() 
+var dn="AM" 
+if (hours>12){ 
+dn="PM" 
+hours=hours-12 
+} 
+if (hours==0) 
+hours=12 
+if (minutes<=9) 
+minutes="0"+minutes 
+if (seconds<=9) 
+seconds="0"+seconds 
+var ctime="<b><font size='3' color='#8000FF'>"+hours+":"+minutes+":"+seconds+"</font></b>" 
+if (!document.all) 
+document.write(ctime) 
+else 
+tick2.innerHTML=ctime 
+} 
+function loadclock(){ 
+if (document.all) 
+setInterval("show2()",1000) 
+} 
+if (!document.all) 
+show2() 
+//--> 
+</script></td></tr>
+<tr><td width="78"><img src="imge/time2.gif" border=0 width="78" height="41" alt="시계"></td></tr>
+</table></td>
+
+<td><table>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="imge/title1.gif" border=0 width="567" height="113"></td>
+</tr>
+</table>
+</td></tr>
+
+
+
+
+
+
+</table>
+
+
+</BODY>
+</HTML>
